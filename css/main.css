@@ -1,0 +1,167 @@
+html, 
+body {
+	margin: 0;
+}
+.navbar {
+	margin: 0 auto;
+	height: 70px;
+	text-align: center;
+}
+
+.navbar-ul {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-ul li {
+	display: inline-block;
+	margin: 0 45px;
+}
+
+.navbar-ul a {
+	text-decoration: none;
+	color: #E2E2E2;
+	font-family: 'Bungee Shade', cursive;
+}
+
+.navbar-ul a:hover {
+	color: #448FD9;
+	cursor: pointer;
+}
+
+.navbar-ul span {
+	color: #448FD9;
+	font-size: 22px;
+	font-family: 'Passion One', cursive;
+}
+
+li.middle	{
+	position: relative;
+	top: 10px;
+}
+
+/*next section*/
+
+.status {
+	text-align: center;
+	margin: 0 auto;
+	height: 65px;
+	background-image: url("../img/stars.jpg");
+	background-size: cover;
+}
+
+.status ul {
+	padding: 0;
+	margin: 0;
+}
+
+.status li {
+	display: inline-block;
+	color: white;
+	font-family: 'Passion One', cursive;
+	margin: 0 150px;
+	font-size: 25px;
+}
+
+.status li:hover {
+	color: #448FD9;
+	cursor: pointer;
+}
+
+.report span {
+	font-size: 13px;
+	font-family: serif;
+	color: #DBDBDB;
+}
+/*next section*/
+
+.main {
+	height: 100%;
+	margin: 0 auto;
+}
+/*use this method to expand a whole img to the width and height of a div container (similar to background img cover css*/
+.snow-mountain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.snow-mountain img {
+	flex-shrink: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.content {
+	text-align: center;
+	font-family: 'Passion One', cursive;
+	 color: #DBDBDB;
+	 font-size: 24px;
+}
+
+.content span {
+	color: #448FD9;
+}
+
+.info {
+	width: 49%;
+	display: inline-block;
+	padding-top: 20px;
+	text-align: right;
+	 color: #DBDBDB;
+}
+
+div.info:nth-child(even) {
+	text-align: left;
+    padding-left: 25px;
+}
+
+/*next section (charts)*/
+
+.charts {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.chart-info {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 100px 7% 50px;
+}
+
+.chart-info img {
+	height: 200px;
+	width:  200px;
+}
+
+/*review section*/
+.review {
+	margin: 0 auto;
+	background-image: url("../img/road.jpeg");
+	text-align: center;
+    padding: 0 30%;
+    height: 100%;
+}
+
+.review h2 {
+	color: #d3d2d2;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 18px #d3d2d2;
+}
+
+.review p {
+	font-size: 20px;
+	color: #d3d2d2;
+    font-family: fantasy;
+    text-shadow: 1px 1px 18px #d3d2d2;
+
+}
+
+@media (max-width:1367px) {
+	.info {
+		width: 48%;
+	}
+}
